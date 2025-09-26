@@ -2,6 +2,10 @@
   "name": "kitto",
   "private": true,
   "type": "module",
+  "packageManager": "pnpm@10.17.1",
+  "engines": {
+    "node": ">=22.20.0"
+  },
   "scripts": {
     "dev": "vite dev --port 3000",
     "start": "node .output/server/index.mjs",
